@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div class="calcCont">
+        <h1 class="htmlResult">0</h1>
+        <form class="form">
+            <button name="C" class="clear btn">C</button>
+            <button name="%" class="btn op">%</button>
+            <button name="**" class="btn op"><span>x²</span></button>
+            <button name="del" class=" del btn op">⌫</button>
+            <button name="1" class="btn num">1</button>
+            <button name="2" class="btn num">2</button>
+            <button name="3" class="btn num">3</button>
+            <button name="+" class="btn op">+</button>
+            <button name="4" class="btn num">4</button>
+            <button name="5" class="btn num">5</button>
+            <button name="6" class="btn num">6</button>
+            <button name="-" class="btn op">-</button>
+            <button name="7" class="btn num">7</button>
+            <button name="8" class="btn num">8</button>
+            <button name="9" class="btn num">9</button>
+            <button name="*" class="btn op">x</button>
+            <button name="." class="btn num">,</button>
+            <button name="0" class="btn num">0</button>
+            <button name="=" class="igual btn">=</button>
+            <button name="/" class="btn op">÷</button>
+        </form>
+    </div>
+
+    <div class="btnModo">
+        <button class="modoClaro">Modo Claro</button>
+        <button class="modoEscuro">Modo Escuro</button>
+    </div>
+
+
+
+    <script src="calculadora.js"></script>
+
+</body>
+
+</html>
